@@ -11,3 +11,7 @@ def citizen_kane(request):
 
     result = template.render(context)
     return HttpResponse(result)
+
+
+def casablanca(request):
+    return render(request, "simple.txt", {"movie": "Casablanca", "year": 1942})

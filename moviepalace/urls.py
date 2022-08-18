@@ -19,4 +19,5 @@ from moviefacts import views
 
 urlpatterns = [
     path("citizen_kane", views.citizen_kane),
+    path("casablanca", views.casablanca),
 ]
