@@ -15,3 +15,7 @@ def citizen_kane(request):
 
 def casablanca(request):
     return render(request, "simple.txt", {"movie": "Casablanca", "year": 1942})
+
+
+def maltese_falcon(request):
+    return render(request, "falcon.html", context={"movie": "Maltese Falcon", "year": 1941})
